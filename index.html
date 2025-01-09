@@ -5,6 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document Obby</title>
+
+    <!-- Internal CSS -->
+    <style>
+      header {
+        background-color: red;
+      }
+      .main-header {
+        background-color: green;
+      }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="CSS\style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Title</h1>
+    </header>
+    <main>
+      <header class="main-header">
+        <h2>Title 2</h2>
+      </header>
+      <header class="main-header" id="unique-main-header">
+        <h2>Title 3</h2>
+      </header>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    </main>
+
+    <!-- Inline CSS -->
+    <footer style="background-color: blue">
+      <span>Footer</span>
+    </footer>
+  </body>
 </html>
